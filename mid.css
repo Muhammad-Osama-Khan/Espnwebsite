@@ -1,0 +1,201 @@
+
+.web{
+    background-color:darkcyan;
+    display: flex;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-radius: 8px;
+}
+#logo{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#items{
+    display: flex;
+    padding: 10px;
+}
+.item{
+margin-left: 30px;
+list-style: none;
+text-decoration: none;
+}
+
+.moon{
+    margin-left: 80px;
+    margin-top: 10px;
+}
+.Sidebar{
+height: 800px;
+width: 250px;
+
+}
+.nav{
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.cric{
+  height: 800px;
+  width: 1200px;
+    display: flex;
+    justify-content: center;
+    margin-left: 100px;
+    margin-top: -799px;
+    overflow: hidden;
+padding-bottom:-800px;   
+    
+} 
+
+
+.score{
+
+  
+    margin-right: 940px;
+    margin-top: -800px;
+}
+.om{
+    margin-left: 250px;
+    margin-top: -90px;
+}
+
+
+.Foot{
+
+    margin-top: 100px;
+    margin-left: 100px;
+}
+
+
+/* FOOTER GITHUB */
+.footer {
+    width: 100%;
+    position: relative;
+    height: auto;
+    background-color:rgba(27, 27, 47, 0.842);
+  }
+  .footer .col {
+    width: 190px;
+    height: auto;
+    float: left;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    padding: 0px 20px 20px 20px;
+  }
+  .footer .col h1 {
+    margin: 0;
+    padding: 0;
+    font-family: inherit;
+    font-size: 12px;
+    line-height: 17px;
+    padding: 20px 0px 5px 0px;
+    color: orange;
+    font-weight: normal;
+    text-transform: uppercase;
+    letter-spacing: 0.250em;
+  }
+  .footer .col ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  .footer .col ul li {
+    color: #999999;
+    font-size: 14px;
+    font-family: inherit;
+    font-weight: bold;
+    padding: 5px 0px 5px 0px;
+    cursor: pointer;
+    transition: .2s;
+    -webkit-transition: .2s;
+    -moz-transition: .2s;
+  }
+  .social ul li {
+    display: inline-block;
+    padding-right: 5px;
+  }
+  
+  .footer .col ul li:hover {
+    color: #e41c1c;
+    transition: .1s;
+    -webkit-transition: .1s;
+    -moz-transition: .1s;
+  }
+  .clearfix {
+    clear: both;
+  }
+
+  .foot {
+    border-top: 1px solid #e2e2e2;
+  }
+
+.item{
+    margin-left: 10px;
+}
+
+
+
+
+  /* Dropdown Button */
+.dropbtn {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+    padding: 2px;
+    font-size: 16px;
+    margin-left:4px;
+    text-decoration: none;
+    border: none;
+  }
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    padding: 0px 3px 0px 7px;
+    position: absolute;
+    width: 6rem;
+    margin-left: 10px;
+    margin-top: -1px;
+    display: inline-block;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+ 
+ 
+    background-color: #1b94c8;
+ 
+    width: 17rem;
+    min-height: 10rem;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: black;
+    padding: 0px 16px;
+    text-decoration: none;
+    display: inline;
+  }
+  a , h4{
+    height: 2rem;
+    color: beige;
+
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {background-color: rgb(45, 153, 195);  color:white ;}
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {display: flex; flex-wrap: wrap;}
+  
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+  .dropdown:hover .dropbtn {background-color: #0e93c4; color: rgb(225, 255, 0);} 
+
+ 
+
+
+
+
+
+
+
+
